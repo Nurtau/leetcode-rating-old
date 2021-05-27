@@ -5,7 +5,7 @@ const App = () => {
 	return (
 		<div
 			className="ui inverted segment"
-			style={{ padding: "30px", minHeight: "100vh", borderRadius: "0px" }}
+			style={{ padding: "15px", minHeight: "100vh", borderRadius: "0px" }}
 		>
 			<div className="ui inverted container">
 				<ScoreList />
