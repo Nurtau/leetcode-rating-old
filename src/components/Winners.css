@@ -1,0 +1,21 @@
+.bronze {
+	color: rgb(182, 150, 89);
+}
+.silver {
+	color: rgba(160, 160, 160, 1);
+}
+.gold {
+	color: rgba(242, 215, 50, 1);
+}
+
+.item.gold {
+	box-shadow: 0px 1px 0px rgba(242, 215, 50, 1);
+}
+
+.item.silver {
+	box-shadow: 0px 1px 0px rgba(160, 160, 160, 1);
+}
+
+.item.bronze {
+	box-shadow: 0px 1px 0px rgb(182, 150, 89);
+}
