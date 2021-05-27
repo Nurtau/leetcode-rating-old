@@ -3,11 +3,6 @@ import axios from "axios";
 import ScoreItem from "./ScoreItem";
 import Loader from "./Loader";
 
-const styles = {
-	width: "90%",
-	margin: "auto",
-	marginTop: "15px",
-};
 
 const ScoreList = () => {
 	const [scores, setScores] = useState([]);

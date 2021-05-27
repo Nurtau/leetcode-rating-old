@@ -6,7 +6,7 @@ const ScoreItem = ({ username, link, score, place }) => {
 			<div class="content">
 				<div class="header" style={{marginBottom:"15px", fontStyle: "italic"}}>{place}</div>
 				<div className="ui left floated">
-					<a href={link} target="_blank">{username}</a>
+					<a href={link}>{username}</a>
 				</div>
 			</div>
 			<div className="ui right floated">{score} points</div>
