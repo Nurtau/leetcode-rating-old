@@ -3,11 +3,11 @@ import ScoreList from "./ScoreList";
 
 const App = () => {
 	return (
-		<div className="ui inverted segment">
-			<div
-				className="ui inverted container"
-				style={{ padding: "30px", minHeight: "100vh", borderRadius: "0px" }}
-			>
+		<div
+			className="ui inverted segment"
+			style={{ padding: "30px", minHeight: "100vh", borderRadius: "0px" }}
+		>
+			<div className="ui inverted container">
 				<ScoreList />
 			</div>
 		</div>
