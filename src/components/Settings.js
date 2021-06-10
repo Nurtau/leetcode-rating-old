@@ -36,7 +36,7 @@ const Settings = () => {
 	});
 
 	return (
-		<div className="ui inverted container segment">
+		<div className="ui inverted container">
 			<div className="ui inverted accordion">{renderModifiers}</div>
 		</div>
 	);
