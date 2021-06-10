@@ -3,7 +3,6 @@ import axios from "axios";
 import ScoreItem from "./ScoreItem";
 import Loader from "./Loader";
 
-
 const ScoreList = () => {
 	const [scores, setScores] = useState([]);
 
@@ -34,15 +33,15 @@ const ScoreList = () => {
 
 	return (
 		<>
+			<h1 styles={{ fontSize: "30px" }}>Rating</h1>
+			<hr style={{ marginBottom: "30px" }} />
 			{scores.length === 0 ? (
-				<Loader />
+				<div style={{ marginTop: "70px" }}>
+					<Loader />
+				</div>
 			) : (
 				<>
-					<h1 styles={{ fontSize: "30px"}}>Rating</h1>
-					<hr style={{marginBottom:"30px"}}/>
-					<div
-						className="ui inverted relaxed divided list"
-					>
+					<div className="ui inverted relaxed divided list">
 						{scoresToRender}
 					</div>
 				</>

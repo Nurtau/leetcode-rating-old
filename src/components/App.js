@@ -1,5 +1,9 @@
 import React from "react";
+import { BrowserRouter, Route } from "react-router-dom";
+
+import Navbar from "./Navbar";
 import ScoreList from "./ScoreList";
+import Settings from "./Settings";
 
 const App = () => {
 	return (
@@ -7,9 +11,17 @@ const App = () => {
 			className="ui inverted segment"
 			style={{ padding: "15px", minHeight: "100vh", borderRadius: "0px" }}
 		>
-			<div className="ui inverted container">
-				<ScoreList />
-			</div>
+			<BrowserRouter>
+				<Navbar />
+				<Route path="/" exact>
+					<div className="ui inverted container">
+						<ScoreList />
+					</div>
+				</Route>
+				<Route path="/settings" exact>
+					<Settings/>
+				</Route>
+			</BrowserRouter>
 		</div>
 	);
 };
