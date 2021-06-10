@@ -76,7 +76,7 @@ const UserAdd = () => {
 				Add User
 			</div>
 			<div>
-				<p style={{ marginTop: "10px" }}>{message}</p>
+				<p style={{ marginTop: "10px" }}  className="modifier-description">{message}</p>
 			</div>
 		</div>
 	);
