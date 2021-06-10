@@ -1,0 +1,13 @@
+label, p {
+	font-size: 15px !important;
+}
+
+
+.title {
+	font-size: 25px !important;
+	display:inline-block !important;
+}
+
+input {
+	width: 400px;
+}

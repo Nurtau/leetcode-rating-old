@@ -15,7 +15,6 @@ const SettingsItem = ({ title, children }) => {
 
 				className={`title ${activeClass}`}
 				onClick={onItemClick}
-				style={{ fontSize: "20px", fontWeight: "bold" , display:"inline-block"}}
 			>
 				<i className="dropdown icon"></i>
 				{title}

@@ -5,6 +5,7 @@ import UserAdd from "./modifiers/UserAdd";
 import ScoreUpdater from "./modifiers/ScoreUpdater";
 import ScoreResetter from "./modifiers/ScoreResetter";
 
+import "./Settings.css";
 
 const modifiers = [
 	{
