@@ -9,7 +9,7 @@ const Navbar = () => {
 	return (
 		<div
 			className="ui container"
-			style={{ marginBottom: "3vh", marginTop: "1vh" }}
+			style={{ marginBottom: "4vh", marginTop: "1vh" }}
 		>
 			<div className="ui inverted secondary menu">
 				<div className="right menu">
