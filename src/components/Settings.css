@@ -1,4 +1,4 @@
-label, p {
+label, p.modifier-description{
 	font-size: 15px !important;
 }
 
@@ -9,5 +9,5 @@ label, p {
 }
 
 input {
-	width: 400px;
+	width: 300px !important;
 }

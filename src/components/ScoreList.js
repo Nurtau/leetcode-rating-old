@@ -3,6 +3,8 @@ import axios from "axios";
 import ScoreItem from "./ScoreItem";
 import Loader from "./Loader";
 
+import "./ScoreList.css";
+
 const ScoreList = () => {
 	const [scores, setScores] = useState([]);
 
@@ -33,10 +35,10 @@ const ScoreList = () => {
 
 	return (
 		<>
-			<h1 styles={{ fontSize: "30px" }}>Rating</h1>
-			<hr style={{ marginBottom: "30px" }} />
+			<h1>Rating</h1>
+			<hr className="line"/>
 			{scores.length === 0 ? (
-				<div style={{ marginTop: "70px" }}>
+				<div className="loader-container">
 					<Loader />
 				</div>
 			) : (

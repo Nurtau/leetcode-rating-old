@@ -17,21 +17,20 @@ const ScoreItem = ({ username, link, score, place }) => {
 			winnerWrapperClass = "";
 	}
 	return (
-		<div className={`item ${winnerWrapperClass}`} style={{ fontSize: "19px" }}>
+		<div className={`item ${winnerWrapperClass}`} >
 			<div class="content">
 				<div
 					className="header"
-					style={{ marginBottom: "15px", fontStyle: "italic" }}
 				>
 					<p className={winnerWrapperClass}>{place}</p>
 				</div>
-				<div className="ui left floated">
+				<div className="ui left floated score-text">
 					<a href={link}>
 						<p className={winnerWrapperClass}>{username}</p>
 					</a>
 				</div>
 			</div>
-			<div className="ui right floated">{score} points</div>
+			<div className="ui right floated score-text">{score} points</div>
 		</div>
 	);
 };

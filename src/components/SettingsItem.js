@@ -21,7 +21,7 @@ const SettingsItem = ({ title, children }) => {
 			</div>
 			<div
 				className={`content ${activeClass}`}
-				style={{ marginLeft: "28px" }}
+				style={{ marginLeft: "33px" }}
 			>
 				<p className={`transition ${activeClass}`}>{children}</p>
 			</div>

@@ -1,0 +1,22 @@
+
+.content p, .score-text {
+	font-size: 22px !important;
+}
+
+h1 {
+	font-size: 30px !important;
+}
+
+hr.line {
+	margin-bottom: 30px;
+}
+
+.loader-container {
+	margin-top: 70px;
+}
+
+
+div.header {
+	margin-bottom: 15px !important; 
+	font-style: italic !important;
+}
